@@ -1,0 +1,33 @@
+{
+  "name": "conditional-render",
+  "version": "1.0.0",
+  "description": "A simple React Component to provide Conditional Render",
+  "main": "/lib/index.js",
+  "scripts": {
+    "compile": "babel index.js --out-dir lib/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciofrontarolli/conditional-render.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "conditional",
+    "render"
+  ],
+  "author": "Fabricio Frontarolli <fabricio.frontarolli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabriciofrontarolli/conditional-render/issues"
+  },
+  "homepage": "https://github.com/fabriciofrontarolli/conditional-render#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
